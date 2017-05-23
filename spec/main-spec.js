@@ -2,8 +2,9 @@ const main = require('../main/main');
 
 describe('main()', () => {
 
-    it('should calculate the remaindar', () => {
-        expect(main(9, 3)).toBe(0);
-        expect(main(11, 4)).toBe(3);
+    it('should calculate the sum', () => {
+      expect(main("123")).toBe(6);
+      expect(main("102")).toBe(3);
     });
+
 });
